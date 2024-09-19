@@ -24,7 +24,7 @@ def dec2bin(numero_decimal, numero_bits):
 if __name__ == "__main__":
     # Pide al usuario el número a convertir y el número de bits 
     # Como el resultado de input es de tipo string, se convierte a entero usando int()
-    
+    numero_decimal = int(input("Escribe el número en decimal que quieres convertir: "))
     numero_bits = int(input("Cuantos bits tendrá el número binario: "))
 
     # se llama a la función dec2bin() para hacer la conversión
